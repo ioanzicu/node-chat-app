@@ -9,10 +9,11 @@
   },
   "engines": {
     "node": "v8.11.3"
-  }, 
+  },
   "author": "Ioan Zîcu",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "socket.io": "^2.1.1"
   }
 }

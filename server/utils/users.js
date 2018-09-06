@@ -33,15 +33,3 @@ class Users {
 }
 
 module.exports = {Users};
-
-
-// class Person {
-// 	constructor (name, age) {
-// 		this.name = name;
-// 		this.age = age;
-// 	}
-
-
-// }
-
-// var me = new Person('Iro', 23);

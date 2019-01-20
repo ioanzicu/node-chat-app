@@ -1,3 +1,10 @@
+/**
+ *  Message Utility - help us to create two types of messages: 
+ *  --> text message and 
+ *  --> geolocation message,
+ *  by following a given template.
+ */
+
 var moment = require('moment');
 
 var generateMessage = (from, text) => {

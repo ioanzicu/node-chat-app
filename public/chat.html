@@ -8,24 +8,28 @@
 </head>
 <body class="chat">
 	
+	<!-- USERS SIDEBAR -->
 	<div class="chat__sidebar">
 		<h3>People</h3>
 		<div id="users"></div>
 	</div>
 
+	<!-- CHAT -->
 	<div class="chat__main">
 		<ol id="messages" class="chat__messages"></ol>
-
-
+		<!-- SPACE FOR TEXT TYPING -->
 		<div class="chat__footer">
 			<form action="" id="message-form">
 				<input type="text" name="message" placeholder="Message" autofocus autocomplete="off" />
+				<!-- SEND MESSAGE BUTTON -->
 				<button>Send</button>
 			</form>
+			<!-- GEOLOCATION BUTTON -->
 			<button id="send-location">Send Location</button>
 		</div>
 	</div>
 
+	<!-- TEXT MESSAGE TEMPLATE SCRIPT -->
 	<script id="message-template" type="text/template">
 		<li class="message">
 			<div class="message__title">
@@ -38,6 +42,7 @@
 		</li>
 	</script>
 
+	<!-- GEOLOCATION MESSAGE TEMPLATE SCRIPT -->
 	<script id="location-message-template" type="text/template">
 		<li class="message">
 			<div class="message__title">

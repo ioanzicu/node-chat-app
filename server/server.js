@@ -36,7 +36,7 @@ io.on('connection', (socket) => {
 		// join user to the room
 		socket.join(room);
 		
-		//users.removeUser(socket.id);
+		users.removeUser(socket.id);
 		
 		// add new user 		
 		users.addUser(socket.id, params.name, room);

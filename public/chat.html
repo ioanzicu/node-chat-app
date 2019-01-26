@@ -26,6 +26,9 @@
 			</form>
 			<!-- GEOLOCATION BUTTON -->
 			<button id="send-location">Send Location</button>
+			<br>
+			<!-- GO BACK TO THE WELCOME PAGE -->
+			<button onclick="quit()" id="quit">Quit</button>
 		</div>
 	</div>
 
@@ -55,6 +58,14 @@
 				</p>
 			</div>
 		</li>
+	</script>
+
+	<!-- CONFIRM USER QUIT -->
+	<script type="text/javascript">
+		function quit(){
+			if(confirm("Are you sure???"))
+				window.location.href = "/";
+		}
 	</script>
 
 	<script src="/socket.io/socket.io.js"></script>

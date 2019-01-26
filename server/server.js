@@ -24,8 +24,7 @@ app.use(express.static(publicPath));
 
 // CONNECTION OF A NEW USER
 io.on('connection', (socket) => {
-	// console.log('New user connected');
-
+	// listen to the event join
 	socket.on('join', (params, callback) => {
 		var room = params.room.toLowerCase();
 		// check if the user entered the name and room
